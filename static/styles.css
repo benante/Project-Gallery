@@ -10,19 +10,13 @@ body {
   color: #f2e7d5;
 }
 header {
+  text-align: center;
   display: flex;
   justify-content: center;
   background-color: #6d9886;
   border-bottom: 4px solid #f7f7f7;
   padding: 1em;
   border-radius: 10px;
-}
-
-.container img {
-  width: 100%;
-  max-width: 40em;
-  border-radius: 10px;
-  border-bottom: 1px solid #6d9886;
 }
 .container {
   display: flex;
@@ -31,6 +25,13 @@ header {
   margin: 60px auto;
   gap: 40px;
 }
+.container img {
+  width: 100%;
+  max-width: 30em;
+  border-radius: 10px;
+  border-bottom: 1px solid #6d9886;
+}
+
 .card {
   display: flex;
   flex-direction: column;
